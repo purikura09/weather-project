@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Wireframe</title>
+    <style>
+        #row-1 {
+            height: 400px;
+        }
+
+
+
+        .search_box {
+            display: block;
+            position: relative;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Wireframe Weather</p>
+
+        <br />
+        <div id="row-1" class="row bg-light p-4 m-0">
+            <div class="col-4">
+                <h2 id="current-temperature">8° C</h2>
+                <a href="#" id="degrees-link" class="text-decoration-none ">°C</a>
+                <a href="#" id="farenheit-link" class="text-decoration-none">°F</a>
+
+
+
+
+
+
+            </div>
+            <div class="col-4">
+                <h2 id="currentDate" class="text-center">Today Sunday, "Month"</h2>
+                <h1 id="city-title" class="text-center">City</h1>
+            </div>
+            <div id="searchForm" class="col-4 text-end">
+
+                <input type="search" placeholder="Search city" id="search-value" autofocus="off">
+                <input type="submit" value="Search" id="search-button">
+
+            </div>
+        </div>
+        <br />
+        <div id="row-2" class="row">
+            <div class="col-3 text-center ">
+                <div class="p-4 bg-light ">
+                    <h3>Monday</h3>
+                    <img src="img/sunny.png">
+                    <h3>8°C</h3>
+                </div>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="p-4 bg-light ">
+                    <h3>Tuesday</h3>
+                    <img src="img/sunny.png">
+                    <h3>8°C</h3>
+                </div>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="p-4 bg-light ">
+                    <h3>Wednesday</h3>
+                    <img src="img/snow.png">
+                    <h3>8°C</h3>
+                </div>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="p-4 bg-light ">
+                    <h3>Thursday</h3>
+                    <img src="img/snow.png">
+                    <h3>8°C</h3>
+                </div>
+            </div>
+
+            <a href=""></a>
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
