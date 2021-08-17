@@ -10,16 +10,38 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Wireframe</title>
     <style>
+        body {}
+
         #row-1 {
             height: 400px;
+            background-color: #bae1ff;
         }
-
-
 
         .search_box {
             display: block;
             position: relative;
             margin: 0 auto;
+        }
+
+        .row,
+        .box {
+            border-radius: 15px;
+        }
+
+        #box-1 {
+            background-color: #baffc9;
+        }
+
+        #box-2 {
+            background-color: #ffffba;
+        }
+
+        #box-3 {
+            background-color: #ffdfba;
+        }
+
+        #box-4 {
+            background-color: #ffb3ba;
         }
     </style>
 </head>
@@ -30,7 +52,7 @@
         <p>Wireframe Weather</p>
 
         <br />
-        <div id="row-1" class="row bg-light p-4 m-0">
+        <div id="row-1" class="row p-4 m-0 ">
             <div class="col-4">
                 <h2 id="current-temperature">8° C</h2>
                 <a href="#" id="degrees-link" class="text-decoration-none ">°C</a>
@@ -55,29 +77,29 @@
         </div>
         <br />
         <div id="row-2" class="row">
-            <div class="col-3 text-center ">
-                <div class="p-4 bg-light ">
+            <div id="box-1" class="box col-3 text-center ">
+                <div class="p-4  ">
                     <h3>Monday</h3>
                     <img src="img/sunny.png">
                     <h3>8°C</h3>
                 </div>
             </div>
-            <div class="col-3 text-center ">
-                <div class="p-4 bg-light ">
+            <div class="box col-3 text-center ">
+                <div id="box-2" class="p-4  ">
                     <h3>Tuesday</h3>
                     <img src="img/sunny.png">
                     <h3>8°C</h3>
                 </div>
             </div>
-            <div class="col-3 text-center ">
-                <div class="p-4 bg-light ">
+            <div class="box col-3 text-center ">
+                <div id="box-3" class="p-4  ">
                     <h3>Wednesday</h3>
                     <img src="img/snow.png">
                     <h3>8°C</h3>
                 </div>
             </div>
-            <div class="col-3 text-center ">
-                <div class="p-4 bg-light ">
+            <div class="box col-3 text-center ">
+                <div id="box-4" class="p-4  ">
                     <h3>Thursday</h3>
                     <img src="img/snow.png">
                     <h3>8°C</h3>
